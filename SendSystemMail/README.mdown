@@ -1,0 +1,6 @@
+system Email send： （iOS）
+**MFMailComposeViewController** function
+
+
+系统邮件发送： （iOS）
+**MFMailComposeViewController**使用

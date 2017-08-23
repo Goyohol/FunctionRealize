@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0919B6DC93D5A839381A8D23 /* libPods-SendSystemMailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E43EEE6DC8741C6E39F6D861 /* libPods-SendSystemMailTests.a */; };
+		4D1EE9981F4DCA9800EEFDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE9971F4DCA9800EEFDAA /* main.m */; };
+		4D1EE99B1F4DCA9800EEFDAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE99A1F4DCA9800EEFDAA /* AppDelegate.m */; };
+		4D1EE99E1F4DCA9800EEFDAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE99D1F4DCA9800EEFDAA /* ViewController.m */; };
+		4D1EE9A11F4DCA9800EEFDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE99F1F4DCA9800EEFDAA /* Main.storyboard */; };
+		4D1EE9A31F4DCA9800EEFDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9A21F4DCA9800EEFDAA /* Assets.xcassets */; };
+		4D1EE9A61F4DCA9800EEFDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9A41F4DCA9800EEFDAA /* LaunchScreen.storyboard */; };
+		4D1EE9B11F4DCA9800EEFDAA /* SendSystemMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE9B01F4DCA9800EEFDAA /* SendSystemMailTests.m */; };
+		4D1EE9BD1F4DCCFB00EEFDAA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE9BC1F4DCCFB00EEFDAA /* MessageUI.framework */; };
+		4D1EE9BF1F4DCDD300EEFDAA /* chx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */; };
+		B1BAA2F4602200884F3D432E /* libPods-SendSystemMail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA88167E7BA81DF459AA292F /* libPods-SendSystemMail.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1EE9AD1F4DCA9800EEFDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1EE98B1F4DCA9800EEFDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1EE9921F4DCA9800EEFDAA;
+			remoteInfo = SendSystemMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FBCB00941B7A6FFD8D3FE1 /* Pods-SendSystemMail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendSystemMail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendSystemMail/Pods-SendSystemMail.debug.xcconfig"; sourceTree = "<group>"; };
+		1EAA3022A5133FF3BB27B23A /* Pods-SendSystemMailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendSystemMailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendSystemMailTests/Pods-SendSystemMailTests.release.xcconfig"; sourceTree = "<group>"; };
+		398BEE040B58D225D1AC0666 /* Pods-SendSystemMailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendSystemMailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SendSystemMailTests/Pods-SendSystemMailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1EE9931F4DCA9800EEFDAA /* SendSystemMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendSystemMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EE9971F4DCA9800EEFDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D1EE9991F4DCA9800EEFDAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D1EE99A1F4DCA9800EEFDAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D1EE99C1F4DCA9800EEFDAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D1EE99D1F4DCA9800EEFDAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D1EE9A01F4DCA9800EEFDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D1EE9A21F4DCA9800EEFDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D1EE9A51F4DCA9800EEFDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D1EE9A71F4DCA9800EEFDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1EE9AC1F4DCA9800EEFDAA /* SendSystemMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendSystemMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EE9B01F4DCA9800EEFDAA /* SendSystemMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendSystemMailTests.m; sourceTree = "<group>"; };
+		4D1EE9B21F4DCA9800EEFDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1EE9BC1F4DCCFB00EEFDAA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chx.jpg; path = ../../../Downloads/chx.jpg; sourceTree = "<group>"; };
+		BC71D83643CFC2ACA944A5B6 /* Pods-SendSystemMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendSystemMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendSystemMail/Pods-SendSystemMail.release.xcconfig"; sourceTree = "<group>"; };
+		E43EEE6DC8741C6E39F6D861 /* libPods-SendSystemMailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SendSystemMailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA88167E7BA81DF459AA292F /* libPods-SendSystemMail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SendSystemMail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1EE9901F4DCA9800EEFDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE9BD1F4DCCFB00EEFDAA /* MessageUI.framework in Frameworks */,
+				B1BAA2F4602200884F3D432E /* libPods-SendSystemMail.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE9A91F4DCA9800EEFDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0919B6DC93D5A839381A8D23 /* libPods-SendSystemMailTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DCA21125A5C21FA849B4017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06FBCB00941B7A6FFD8D3FE1 /* Pods-SendSystemMail.debug.xcconfig */,
+				BC71D83643CFC2ACA944A5B6 /* Pods-SendSystemMail.release.xcconfig */,
+				398BEE040B58D225D1AC0666 /* Pods-SendSystemMailTests.debug.xcconfig */,
+				1EAA3022A5133FF3BB27B23A /* Pods-SendSystemMailTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D1EE98A1F4DCA9800EEFDAA = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9951F4DCA9800EEFDAA /* SendSystemMail */,
+				4D1EE9AF1F4DCA9800EEFDAA /* SendSystemMailTests */,
+				4D1EE9941F4DCA9800EEFDAA /* Products */,
+				4D1EE9BB1F4DCCFA00EEFDAA /* Frameworks */,
+				0DCA21125A5C21FA849B4017 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1EE9941F4DCA9800EEFDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9931F4DCA9800EEFDAA /* SendSystemMail.app */,
+				4D1EE9AC1F4DCA9800EEFDAA /* SendSystemMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1EE9951F4DCA9800EEFDAA /* SendSystemMail */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */,
+				4D1EE9991F4DCA9800EEFDAA /* AppDelegate.h */,
+				4D1EE99A1F4DCA9800EEFDAA /* AppDelegate.m */,
+				4D1EE99C1F4DCA9800EEFDAA /* ViewController.h */,
+				4D1EE99D1F4DCA9800EEFDAA /* ViewController.m */,
+				4D1EE99F1F4DCA9800EEFDAA /* Main.storyboard */,
+				4D1EE9A21F4DCA9800EEFDAA /* Assets.xcassets */,
+				4D1EE9A41F4DCA9800EEFDAA /* LaunchScreen.storyboard */,
+				4D1EE9A71F4DCA9800EEFDAA /* Info.plist */,
+				4D1EE9961F4DCA9800EEFDAA /* Supporting Files */,
+			);
+			path = SendSystemMail;
+			sourceTree = "<group>";
+		};
+		4D1EE9961F4DCA9800EEFDAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9971F4DCA9800EEFDAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D1EE9AF1F4DCA9800EEFDAA /* SendSystemMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9B01F4DCA9800EEFDAA /* SendSystemMailTests.m */,
+				4D1EE9B21F4DCA9800EEFDAA /* Info.plist */,
+			);
+			path = SendSystemMailTests;
+			sourceTree = "<group>";
+		};
+		4D1EE9BB1F4DCCFA00EEFDAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EE9BC1F4DCCFB00EEFDAA /* MessageUI.framework */,
+				EA88167E7BA81DF459AA292F /* libPods-SendSystemMail.a */,
+				E43EEE6DC8741C6E39F6D861 /* libPods-SendSystemMailTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1EE9921F4DCA9800EEFDAA /* SendSystemMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EE9B51F4DCA9800EEFDAA /* Build configuration list for PBXNativeTarget "SendSystemMail" */;
+			buildPhases = (
+				E3DACFDE329F00AA336F6B0F /* [CP] Check Pods Manifest.lock */,
+				4D1EE98F1F4DCA9800EEFDAA /* Sources */,
+				4D1EE9901F4DCA9800EEFDAA /* Frameworks */,
+				4D1EE9911F4DCA9800EEFDAA /* Resources */,
+				2B62178DC4CC9AFFDF27F9E2 /* [CP] Embed Pods Frameworks */,
+				5D5294B54FBBD5AB8C1BE219 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendSystemMail;
+			productName = SendSystemMail;
+			productReference = 4D1EE9931F4DCA9800EEFDAA /* SendSystemMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1EE9AB1F4DCA9800EEFDAA /* SendSystemMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EE9B81F4DCA9800EEFDAA /* Build configuration list for PBXNativeTarget "SendSystemMailTests" */;
+			buildPhases = (
+				E3CBE76F2900B912334177BA /* [CP] Check Pods Manifest.lock */,
+				4D1EE9A81F4DCA9800EEFDAA /* Sources */,
+				4D1EE9A91F4DCA9800EEFDAA /* Frameworks */,
+				4D1EE9AA1F4DCA9800EEFDAA /* Resources */,
+				60AA5A6633A1A4D0FC0FEEC6 /* [CP] Embed Pods Frameworks */,
+				729388BB6C5F82F9E33CA1AC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1EE9AE1F4DCA9800EEFDAA /* PBXTargetDependency */,
+			);
+			name = SendSystemMailTests;
+			productName = SendSystemMailTests;
+			productReference = 4D1EE9AC1F4DCA9800EEFDAA /* SendSystemMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1EE98B1F4DCA9800EEFDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "RainHeroic Kung";
+				TargetAttributes = {
+					4D1EE9921F4DCA9800EEFDAA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VG6HJ85V7K;
+						ProvisioningStyle = Automatic;
+					};
+					4D1EE9AB1F4DCA9800EEFDAA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VG6HJ85V7K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4D1EE9921F4DCA9800EEFDAA;
+					};
+				};
+			};
+			buildConfigurationList = 4D1EE98E1F4DCA9800EEFDAA /* Build configuration list for PBXProject "SendSystemMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D1EE98A1F4DCA9800EEFDAA;
+			productRefGroup = 4D1EE9941F4DCA9800EEFDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1EE9921F4DCA9800EEFDAA /* SendSystemMail */,
+				4D1EE9AB1F4DCA9800EEFDAA /* SendSystemMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1EE9911F4DCA9800EEFDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE9A61F4DCA9800EEFDAA /* LaunchScreen.storyboard in Resources */,
+				4D1EE9BF1F4DCDD300EEFDAA /* chx.jpg in Resources */,
+				4D1EE9A31F4DCA9800EEFDAA /* Assets.xcassets in Resources */,
+				4D1EE9A11F4DCA9800EEFDAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE9AA1F4DCA9800EEFDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B62178DC4CC9AFFDF27F9E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendSystemMail/Pods-SendSystemMail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5294B54FBBD5AB8C1BE219 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendSystemMail/Pods-SendSystemMail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AA5A6633A1A4D0FC0FEEC6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendSystemMailTests/Pods-SendSystemMailTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729388BB6C5F82F9E33CA1AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SendSystemMailTests/Pods-SendSystemMailTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3CBE76F2900B912334177BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3DACFDE329F00AA336F6B0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1EE98F1F4DCA9800EEFDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE99E1F4DCA9800EEFDAA /* ViewController.m in Sources */,
+				4D1EE99B1F4DCA9800EEFDAA /* AppDelegate.m in Sources */,
+				4D1EE9981F4DCA9800EEFDAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EE9A81F4DCA9800EEFDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EE9B11F4DCA9800EEFDAA /* SendSystemMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1EE9AE1F4DCA9800EEFDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1EE9921F4DCA9800EEFDAA /* SendSystemMail */;
+			targetProxy = 4D1EE9AD1F4DCA9800EEFDAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D1EE99F1F4DCA9800EEFDAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1EE9A01F4DCA9800EEFDAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D1EE9A41F4DCA9800EEFDAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1EE9A51F4DCA9800EEFDAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D1EE9B31F4DCA9800EEFDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1EE9B41F4DCA9800EEFDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D1EE9B61F4DCA9800EEFDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06FBCB00941B7A6FFD8D3FE1 /* Pods-SendSystemMail.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				INFOPLIST_FILE = SendSystemMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.SendSystemMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D1EE9B71F4DCA9800EEFDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC71D83643CFC2ACA944A5B6 /* Pods-SendSystemMail.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				INFOPLIST_FILE = SendSystemMail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.SendSystemMail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D1EE9B91F4DCA9800EEFDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398BEE040B58D225D1AC0666 /* Pods-SendSystemMailTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				INFOPLIST_FILE = SendSystemMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.SendSystemMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendSystemMail.app/SendSystemMail";
+			};
+			name = Debug;
+		};
+		4D1EE9BA1F4DCA9800EEFDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EAA3022A5133FF3BB27B23A /* Pods-SendSystemMailTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				INFOPLIST_FILE = SendSystemMailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.SendSystemMailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendSystemMail.app/SendSystemMail";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1EE98E1F4DCA9800EEFDAA /* Build configuration list for PBXProject "SendSystemMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE9B31F4DCA9800EEFDAA /* Debug */,
+				4D1EE9B41F4DCA9800EEFDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D1EE9B51F4DCA9800EEFDAA /* Build configuration list for PBXNativeTarget "SendSystemMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE9B61F4DCA9800EEFDAA /* Debug */,
+				4D1EE9B71F4DCA9800EEFDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D1EE9B81F4DCA9800EEFDAA /* Build configuration list for PBXNativeTarget "SendSystemMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EE9B91F4DCA9800EEFDAA /* Debug */,
+				4D1EE9BA1F4DCA9800EEFDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1EE98B1F4DCA9800EEFDAA /* Project object */;
+}
