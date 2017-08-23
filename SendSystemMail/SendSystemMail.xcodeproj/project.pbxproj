@@ -16,7 +16,7 @@
 		4D1EE9A61F4DCA9800EEFDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9A41F4DCA9800EEFDAA /* LaunchScreen.storyboard */; };
 		4D1EE9B11F4DCA9800EEFDAA /* SendSystemMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EE9B01F4DCA9800EEFDAA /* SendSystemMailTests.m */; };
 		4D1EE9BD1F4DCCFB00EEFDAA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1EE9BC1F4DCCFB00EEFDAA /* MessageUI.framework */; };
-		4D1EE9BF1F4DCDD300EEFDAA /* chx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */; };
+		4D1EE9C11F4DECED00EEFDAA /* chx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D1EE9C01F4DECED00EEFDAA /* chx.jpg */; };
 		B1BAA2F4602200884F3D432E /* libPods-SendSystemMail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA88167E7BA81DF459AA292F /* libPods-SendSystemMail.a */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		4D1EE9B01F4DCA9800EEFDAA /* SendSystemMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SendSystemMailTests.m; sourceTree = "<group>"; };
 		4D1EE9B21F4DCA9800EEFDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D1EE9BC1F4DCCFB00EEFDAA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chx.jpg; path = ../../../Downloads/chx.jpg; sourceTree = "<group>"; };
+		4D1EE9C01F4DECED00EEFDAA /* chx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chx.jpg; sourceTree = "<group>"; };
 		BC71D83643CFC2ACA944A5B6 /* Pods-SendSystemMail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendSystemMail.release.xcconfig"; path = "Pods/Target Support Files/Pods-SendSystemMail/Pods-SendSystemMail.release.xcconfig"; sourceTree = "<group>"; };
 		E43EEE6DC8741C6E39F6D861 /* libPods-SendSystemMailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SendSystemMailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA88167E7BA81DF459AA292F /* libPods-SendSystemMail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SendSystemMail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,7 +109,7 @@
 		4D1EE9951F4DCA9800EEFDAA /* SendSystemMail */ = {
 			isa = PBXGroup;
 			children = (
-				4D1EE9BE1F4DCDD300EEFDAA /* chx.jpg */,
+				4D1EE9C01F4DECED00EEFDAA /* chx.jpg */,
 				4D1EE9991F4DCA9800EEFDAA /* AppDelegate.h */,
 				4D1EE99A1F4DCA9800EEFDAA /* AppDelegate.m */,
 				4D1EE99C1F4DCA9800EEFDAA /* ViewController.h */,
@@ -241,7 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D1EE9A61F4DCA9800EEFDAA /* LaunchScreen.storyboard in Resources */,
-				4D1EE9BF1F4DCDD300EEFDAA /* chx.jpg in Resources */,
+				4D1EE9C11F4DECED00EEFDAA /* chx.jpg in Resources */,
 				4D1EE9A31F4DCA9800EEFDAA /* Assets.xcassets in Resources */,
 				4D1EE9A11F4DCA9800EEFDAA /* Main.storyboard in Resources */,
 			);
@@ -563,6 +563,7 @@
 				4D1EE9B71F4DCA9800EEFDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D1EE9B81F4DCA9800EEFDAA /* Build configuration list for PBXNativeTarget "SendSystemMailTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +572,7 @@
 				4D1EE9BA1F4DCA9800EEFDAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
