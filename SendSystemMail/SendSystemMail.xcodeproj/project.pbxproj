@@ -205,8 +205,7 @@
 				TargetAttributes = {
 					4D1EE9921F4DCA9800EEFDAA = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VG6HJ85V7K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4D1EE9AB1F4DCA9800EEFDAA = {
 						CreatedOnToolsVersion = 8.1;
@@ -493,7 +492,7 @@
 			baseConfigurationReference = 06FBCB00941B7A6FFD8D3FE1 /* Pods-SendSystemMail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendSystemMail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -507,7 +506,7 @@
 			baseConfigurationReference = BC71D83643CFC2ACA944A5B6 /* Pods-SendSystemMail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SendSystemMail/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
