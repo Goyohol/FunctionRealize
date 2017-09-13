@@ -1,0 +1,2 @@
+**ZBarReaderViewController**的使用：
+**二维码** + **条形码**

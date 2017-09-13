@@ -1,4 +1,5 @@
+- scanVC：二维码信息获取 **ZBarReaderViewController**的使用
 - SendSystemMail：系统邮件发送 **MFMailComposeViewController**的使用
-
+- 
 
 
