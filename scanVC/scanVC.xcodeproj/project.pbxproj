@@ -202,8 +202,7 @@
 					};
 					4D3849931F68275F00F11170 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = VG6HJ85V7K;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = 4D38497A1F68275F00F11170;
 					};
 				};
@@ -512,11 +511,12 @@
 			baseConfigurationReference = FF80D12BBA2DD44D9F96133C /* Pods-scanVCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = scanVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.scanVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scanVC.app/scanVC";
 			};
 			name = Debug;
@@ -526,11 +526,12 @@
 			baseConfigurationReference = B4C5AD1F86AF6910D03B9B46 /* Pods-scanVCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = VG6HJ85V7K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = scanVCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.goyohol.scanVCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scanVC.app/scanVC";
 			};
 			name = Release;
